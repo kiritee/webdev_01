@@ -1,0 +1,35 @@
+html {
+    background-color: rgb(226, 238, 253);
+    font-size: 14px; 
+    font-family: 'Roboto', sans-serif;
+  }
+
+body {
+    width: 600px;
+    margin: 20px auto;
+    background-color: rgb(150, 173, 175);
+    padding: 20px 20px 20px;
+    border: solid black;
+}
+
+h1 {
+    margin: 0 ;
+    padding: 20px 0;
+    color: rgb(226, 238, 253);
+    font-size: 60px;
+    text-align: center; 
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+}
+
+
+p, li {
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 1px;
+    /* text-align: center;  */
+}
