@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <title>A Random Silly Story</title>
+    <link href="styles/silly-story.css" rel="stylesheet">
+    <script src="scripts/silly-story-generator.js" defer></script>
+</head>
+
+<body>
+    <div class="form">
+        <label for="userName">Enter custom name: </label>
+        <input type="text" id="userName" class="userName"> <br>
+        <input type="radio" id="US" value="US" name="country" class="countries" checked>
+        <label for="US">US</label>
+        <input type="radio" id="UK" value="UK" name="country" class="countries">
+        <label for="UK">UK</label><br>
+        <input type="submit" value="generate random story" id='generate' class="generate">
+    </div>
+    <p class="story">
+    </p>
+</body>
+</html>
